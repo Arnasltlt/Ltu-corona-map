@@ -1,19 +1,13 @@
-<meta charset='utf-8' />
-<title>NYC motor vehicle collisions</title>
-<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-<script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
-<link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8' />
+	<title>NYC motor vehicle collisions</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
 
-
-<body>
-
-<div id='map'></div>
-<div id='console'>
-  <h1>Motor vehicle collisions</h1>
-  <p>Data: <a href='https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95'>Motor vehicle collision injuries and deaths</a> in NYC, Jan 2016</p>
-</div>
-
-<style type="text/css">
+	<style type="text/css">
 	
 body {
   margin: 0;
@@ -53,6 +47,18 @@ a {
 }
 
 </style>
+</head>
+<body>
+
+
+
+<div id='map'></div>
+<div id='console'>
+  <h1>Motor vehicle collisions</h1>
+  <p>Data: <a href='https://data.cityofnewyork.us/Public-Safety/NYPD-Motor-Vehicle-Collisions/h9gi-nx95'>Motor vehicle collision injuries and deaths</a> in NYC, Jan 2016</p>
+</div>
+
+
 
 
 
@@ -62,14 +68,15 @@ a {
 
 
 <script type="text/javascript">
-	mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN';
+	mapboxgl.accessToken = 'pk.eyJ1IjoiYXJuYXNsdGx0IiwiYSI6ImNrODF5bGxwcTBpc3ozZ21zZGdlbXB5ZHUifQ.fuSmOWynyDo7Lohjbg6oDg';
 
 var map = new mapboxgl.Map({
   container: 'map', // container element id
   style: 'mapbox://styles/mapbox/light-v10',
-  center: [-74.0059, 40.7128], // initial map center in [lon, lat]
+  center: [55.1694, 23.8813], // initial map center in [lon, lat]
   zoom: 12
 });
 </script>
 
 </body>
+</html>
