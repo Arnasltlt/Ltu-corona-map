@@ -1,0 +1,60 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "Užsikrėtęs": 1,
+      "Killed": 0,
+      "Factor1": "Unspecified",
+      "Hour": 18,
+      "Day": "Fri",
+      "Casualty": 1
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [54.8985, 54.8985]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "Injured": 0,
+      "Killed": 0,
+      "Factor1": "Unspecified",
+      "Hour": 19,
+      "Day": "Fri",
+      "Casualty": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates":[54.0085, 50.8985]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "Injured": 0,
+      "Killed": 0,
+      "Factor1": "Outside Car Distraction",
+      "Hour": 19,
+      "Day": "Fri",
+      "Casualty": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates":[50.8085, 54.8985]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "Injured": 0,
+      "Killed": 0,
+      "Factor1": "Unspecified",
+      "Hour": 19,
+      "Day": "Fri",
+      "Casualty": 0
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates":[50.8085, 54.8985]
+    }
+  },]
+}
